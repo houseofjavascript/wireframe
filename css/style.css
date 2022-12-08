@@ -1,0 +1,70 @@
+header {
+  background-color: #444;
+}
+ header nav {
+  display: flex;
+ }
+
+ nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 60pc;
+ }
+
+main img {
+  justify-content: center;
+  margin-top: 60px;
+}
+main {
+  width: 960px;
+  margin: auto;
+}
+
+main ul {
+  display: flex;
+  align-items: inherit;
+  justify-content: space-around;
+}
+
+
+p {
+  height: 300px;
+  overflow: auto;
+  margin-left: 300px;
+}
+
+
+
+section img
+
+article {
+  float: right;
+  display: flex;
+  justify-content:flex-end;
+
+}
+
+article h2 {
+  float: right;
+  position: relative;
+}
+
+section article {
+  display:inline;
+  font-display: inherit;
+  align-items: right;
+  justify-content: right;
+}
+
+
+button:hover {
+  float: right;
+  background-color: green;
+}
+
+footer {
+  background-color: #444;
+  height: 150px;
+  border: 1in;
+  bottom: 0;
+}
